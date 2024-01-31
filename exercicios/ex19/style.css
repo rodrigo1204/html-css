@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*
+id em HTML é= a # m css
+class em html em css é .
+*/
+body{
+    background-color:rgba(128, 255, 0, 0.307);
+    font-family: 'Courier New', Courier, monospace;
+}
+h1#princ{
+    text-align: center;
+   background-color: rgba(137, 43, 226, 0.697);
+}
+h1{
+    color: rgba(32, 57, 7, 0.737)
+}
+h2{
+    
+}
+.basico{
+    color: rgba(23, 210, 51, 0.804);
+    font-weight: bold;
+    
+}
+.intermediario{
+    color: rgba(248, 223, 0, 0.931)
+}
+.avançado{
+    color: rgba(237, 16, 16, 0.894)
+}

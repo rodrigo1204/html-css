@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(137, 133, 133);
+            margin: 0px;
+        }
+        header{
+            background-color: rgb(246, 237, 237);
+            text-align: center;
+            padding: 10px;
+            margin: 8px;
+        }
+        h2{
+            text-align: center;
+        }
+      
+        nav{
+            background-color: rgb(255, 225, 225);
+            padding: 3px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.283);
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: white;
+            padding: 10px;
+        }
+        article > aside{
+            background-color: black;
+            color: white;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        footer > p{
+            margin: 0px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+      <nav>
+        <h1>Meu Site</h1>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+     </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+        <p>tecnologia, politica,mundo</p>
+        </section>
+        <sectioni id="noticias">
+            <article>
+                <h2>noticia sobre tecnologia</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus    reprehenderit commodi incidunt totam? Aliquid pariatur eveniet quia quibusdam. Nobis adipisci dolores natus iure quo, quod alias repellendus dignissimos omnis tenetur.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae hic architecto assumenda! Sunt, doloribus recusandae illo iste non, inventore quasi, cumque iusto accusamus nesciunt dolorem quam aut libero asperiores earum.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus fuga quam maxime error ducimus, rerum ratione corrupti, officia nesciunt sit magnam distinctio neque nostrum necessitatibus quis architecto modi impedit incidunt.
+                </p>
+                <aside>Artigo escrito por Syndra da Silva</aside>
+            </article>
+            <article>
+                <h2> noticias sobre politica</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus exercitationem, ex, facere quam nobis quis nulla id, consequatur veritatis magnam illo. Enim autem est velit perferendis ea consequuntur, eveniet Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, distinctio, nihil voluptatum quasi vitae id sapiente aliquid nisi corporis veritatis optio assumenda esse. Accusantium, ipsam. Adipisci quasi iure itaque assumenda!</p>
+            </article>
+        </section>
+    </main>
+    <footer>Rodrigo Ferreira Costa
+
+    </footer>
+    
+</body>
+</html>

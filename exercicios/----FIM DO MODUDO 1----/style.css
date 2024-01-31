@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body {
+    background-color: darkviolet;
+    font-size: 30px;
+    font-style: oblique;
+    text-align: center;
+}
+h1{
+    background-color: blueviolet;
+    color: black;
+}
+h2{
+    color: rgb(58, 7, 58);
+}
